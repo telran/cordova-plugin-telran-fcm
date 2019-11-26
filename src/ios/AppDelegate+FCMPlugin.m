@@ -168,6 +168,9 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:userInfoMutable options:0 error:&error];
         NSLog(@"APP WAS CLOSED DURING PUSH RECEPTION Saved data: %@", jsonData);
         lastPush = jsonData;
+
+        NSLog(@"Increment badge count");
+        application.applicationIconBadgeNumber = application.applicationIconBadgeNumber + 1;
     }
 }
 #pragma clang diagnostic pop
