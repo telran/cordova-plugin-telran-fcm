@@ -1,17 +1,17 @@
 {
   "version": "4.1.0",
-  "name": "cordova-plugin-fcm-with-dependecy-updated",
+  "name": "cordova-plugin-telran-fcm",
   "cordova_name": "Cordova FCM Push Plugin",
-  "description": "Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated",
+  "description": "Google Firebase Cloud Messaging Cordova Push Plugin",
   "license": "MIT",
   "main": "www/FCMPlugin.js",
   "typings": "src/FCMPlugin.d.ts",
   "repo": "",
   "issue": "",
-  "author": "André Augusto Tissot",
+  "author": "André Augusto Tissot, Edmund Stroh",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated"
+    "url": "https://github.com/telran/cordova-plugin-telran-fcm"
   },
   "keywords": [
     "ecosystem:cordova",

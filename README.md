@@ -1,18 +1,18 @@
 # Google Firebase Cloud Messaging Cordova Push Plugin
 > Extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.
 
-[![npm downloads](https://img.shields.io/npm/dt/cordova-plugin-fcm-with-dependecy-updated.svg)](https://www.npmjs.com/package/cordova-plugin-fcm-with-dependecy-updated)
-[![npm per month](https://img.shields.io/npm/dm/cordova-plugin-fcm-with-dependecy-updated.svg)](https://www.npmjs.com/package/cordova-plugin-fcm-with-dependecy-updated)
-[![npm version](https://img.shields.io/npm/v/cordova-plugin-fcm-with-dependecy-updated.svg)](https://www.npmjs.com/package/cordova-plugin-fcm-with-dependecy-updated)
+[![npm downloads](https://img.shields.io/npm/dt/cordova-plugin-telran-fcm.svg)](https://www.npmjs.com/package/cordova-plugin-telran-fcm)
+[![npm per month](https://img.shields.io/npm/dm/cordova-plugin-telran-fcm.svg)](https://www.npmjs.com/package/cordova-plugin-telran-fcm)
+[![npm version](https://img.shields.io/npm/v/cordova-plugin-telran-fcm.svg)](https://www.npmjs.com/package/cordova-plugin-telran-fcm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github/issues/andrehtissot/cordova-plugin-fcm-with-dependecy-updated.svg)](https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated/issues)
-[![GitHub forks](https://img.shields.io/github/forks/andrehtissot/cordova-plugin-fcm-with-dependecy-updated.svg)](https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated/network)
-[![GitHub stars](https://img.shields.io/github/stars/andrehtissot/cordova-plugin-fcm-with-dependecy-updated.svg)](https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated/stargazers)
-[![Known Vulnerabilities](https://snyk.io/test/github/andrehtissot/cordova-plugin-fcm-with-dependecy-updated/badge.svg?targetFile=package.json)](https://snyk.io/test/github/andrehtissot/cordova-plugin-fcm-with-dependecy-updated?targetFile=package.json)
+[![GitHub issues](https://img.shields.io/github/issues/telran/cordova-plugin-telran-fcm.svg)](https://github.com/telran/cordova-plugin-telran-fcm/issues)
+[![GitHub forks](https://img.shields.io/github/forks/telran/cordova-plugin-telran-fcm.svg)](https://github.com/telran/cordova-plugin-telran-fcm/network)
+[![GitHub stars](https://img.shields.io/github/stars/telran/cordova-plugin-telran-fcm.svg)](https://github.com/telran/cordova-plugin-telran-fcm/stargazers)
+[![Known Vulnerabilities](https://snyk.io/test/github/telran/cordova-plugin-telran-fcm/badge.svg?targetFile=package.json)](https://snyk.io/test/github/telran/cordova-plugin-telran-fcm?targetFile=package.json)
 [![DeepScan grade](https://deepscan.io/api/teams/3417/projects/5068/branches/39495/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3417&pid=5068&bid=39495)
 
 ## Authorship
-This is a fork from https://github.com/fechanique/cordova-plugin-fcm, which has dependencies versions upgraded, jitpack and cocoapods support, and newer features.
+This is a fork from https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated and https://github.com/fechanique/cordova-plugin-fcm.
 
 ### Version 4.1.0 (26/10/2019)
 
@@ -70,7 +70,7 @@ FCMPlugin.hasPermission(function(doesIt){
 ## Installation
 Make sure you have ‘google-services.json’ for Android or  ‘GoogleService-Info.plist’ for iOS in your Cordova project root folder. You don´t need to configure anything else in order to have push notification working for both platforms, everything is magic.
 ```Bash
-cordova plugin add cordova-plugin-fcm-with-dependecy-updated
+cordova plugin add cordova-plugin-telran-fcm
 ```
 
 ### Firebase configuration files
