@@ -264,6 +264,9 @@ fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
     NSLog(@"app become active");
     [FCMPlugin.fcmPlugin appEnterForeground];
     [self connectToFcm];
+
+    NSLog(@"Reset badge count");
+    application.applicationIconBadgeNumber = 0
 }
 
 // [START disconnect_from_fcm]
